@@ -9,7 +9,7 @@ const buttonDOM4 = document.querySelector('.btn4')
 let player = '';
 let computer = '';
 let result = '';
-let skaicius = 0;
+
 buttonDOM1.addEventListener('click', (event) => {
     event.preventDefault();
     player = buttonDOM1.innerText;
