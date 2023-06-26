@@ -53,11 +53,11 @@ function whoWon () {
     if (player === computer) {
         return 'Draw..'
     } else if (computer === 'Rock') {
-        return (player === 'Paper') ? 'You win!' : 'You lose..';
+        return (player === 'Paper') ? 'You win!' : 'You lost..';
     } else if (computer === 'Paper') {
-        return (player === 'Scissors') ? 'You Win!' : 'You lose..';
+        return (player === 'Scissors') ? 'You Win!' : 'You lost..';
     } else if (computer === 'Scissors') {
-        return (player === 'Rock') ? 'You Win!' : 'You lose..'
+        return (player === 'Rock') ? 'You Win!' : 'You lost..'
     }
 }
 
